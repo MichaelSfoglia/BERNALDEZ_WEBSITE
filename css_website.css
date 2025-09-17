@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    z-index: 1;
+}
+
+nav a{
+    padding: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+@media(max-width: 600px){
+	.container{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.paragraph, .portrait{
+		width: 100%;
+	}
+}
+
+section .hero{
+	background-color: lightblue;
+    padding: 60px 0;
+    align-items: center;
+}
+
+.paragraph{
+	width: 50%;
+}
