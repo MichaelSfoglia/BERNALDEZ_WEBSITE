@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/* CONTAINER */
+.hero{
+	min-height: 100vh;
+	background-image: url(https://placehold.co/1366x768);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects{
+	min-height: 100vh;
+	background-image: url(https://placehold.co/1366x768);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* SECTION CONTAINER */
+.content{
+	text-align: center;
+	color: #fff;
+}
+
+.content h1{
+	font-size: 65px;
+	margin-bottom: 20px;
+}
+
+.content p{
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+.content .button{
+	font-size: 18px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+.content .button:hover{
+	background-color: #0056b3;
+}
